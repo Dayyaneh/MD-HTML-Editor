@@ -1,0 +1,233 @@
+.md-html-editor-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 2px);
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+.md-html-editor-menu{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #bbbbbb;;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.md-html-editor-menu-line2{
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.md-html-editor-menu-line-insert-image{
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.md-html-editor-menu-line2-font-panel{
+    flex-grow: 2;
+}
+
+.md-html-editor-menu-line2-font-size-panel{
+    flex-grow: 1;
+}
+
+.md-html-editor-menu-font-drop-down{
+    height: calc(100% - 4px);
+    width: calc(100% - 10px);
+    margin: 2px 5px;
+    border: 1px solid #bbbbbb;
+    outline: 0;
+    font-family: "tahoma", serif;
+}
+
+.md-html-editor-menu-font-size-drop-down{
+    height: calc(100% - 4px);
+    width: calc(100% - 10px);
+    margin: 2px 5px;
+    border: 1px solid #bbbbbb;
+    outline: 0;
+    font-family: "tahoma", serif;
+}
+
+.md-html-editor-menu-button{
+    flex-grow: 0;
+    height: 100%;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.md-html-editor-menu-button-selected{
+    background-color: #fcfcfc !important;
+}
+
+.md-html-editor-menu-separator{
+    flex-grow: 0;
+    height: 100%;
+    width: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-right: 1px solid #bbbbbb;;
+}
+
+.md-html-editor-area{
+    flex-grow: 1;
+    width: calc(100% - 10px);
+    max-height: calc(100% - 92px);
+    background: #ffffff;
+    cursor: text;
+    padding: 5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    outline: 0;
+    overflow: auto;
+}
+
+.md-html-editor-font-item-sans-serif{
+    font-family: "sans-serif", serif;
+}
+
+.md-html-editor-font-item-serif{
+    font-family: "times new roman", serif;
+}
+
+.md-html-editor-font-item-fixed-width{
+    font-family: "courier new", monospace;
+}
+
+.md-html-editor-font-item-wide{
+    font-family: "arial black", sans-serif;
+}
+
+.md-html-editor-font-item-narrow{
+    font-family: "arial narrow", sans-serif;
+}
+
+.md-html-editor-font-item-comic-sans-ms{
+    font-family: "comic sans ms", sans-serif;
+}
+
+.md-html-editor-font-item-garamond{
+    font-family: "garamond", "times new roman", serif;
+}
+
+.md-html-editor-font-item-georgia{
+    font-family: "georgia", serif;
+}
+
+.md-html-editor-font-item-tahoma{
+    font-family: "tahoma", serif;
+}
+
+.md-html-editor-font-item-trebuchet-ms{
+    font-family: "trebuchet ms", sans-serif;
+}
+
+.md-html-editor-font-item-verdana{
+    font-family: "verdana", sans-serif;
+}
+
+.md-html-editor-font-size-item-very-small{
+    font-size: x-small;
+}
+
+.md-html-editor-font-size-item-small{
+    font-size: smaller;
+}
+
+.md-html-editor-font-size-item-less-normal{
+    font-size: small;
+}
+
+.md-html-editor-font-size-item-normal{
+    font-size: medium;
+}
+
+.md-html-editor-font-size-item-large{
+    font-size: large;
+}
+
+.md-html-editor-font-size-item-very-large{
+    font-size: larger;
+}
+
+.md-html-editor-font-size-item-huge{
+    font-size: large;
+}
+
+.md-html-editor-status-bar{
+    display: flex;
+    flex-grow: 0;
+    height: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #bbbbbb;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.md-html-editor-status-bar p{
+    width: 100%;
+    height: 100%;
+    margin: 2px 5px;
+    font-family: Tahoma, serif;
+    font-size: small;
+    color: #787878;
+}
+
+.md-html-editor-menu-line-insert-image input{
+    flex-grow: 1;
+    outline: 0;
+    height: calc(100% - 8px);
+    width: calc(100% - 10px);
+    margin: 2px 5px;
+    border: 1px solid #bbbbbb;
+    font-family: "tahoma", serif;
+}
+
+.md-html-editor-menu-line-insert-image button{
+    flex-grow: 0;
+    height: calc(100% - 4px);
+    margin: 2px 5px;
+    border: 1px solid #bbbbbb;
+    font-family: "tahoma", serif;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.md-button{
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    border: 1px solid #f4f4f4;
+    padding: 1px 6px;
+}
+.md-button:hover{
+    outline: 0;
+    background-color: #f6f6f6;
+}
+.md-button:active {
+    outline: 0;
+    background-color: #dddddd;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.md-html-editor-drop-down-button{
+
+}
